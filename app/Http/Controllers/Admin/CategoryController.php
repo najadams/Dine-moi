@@ -35,8 +35,8 @@ class CategoryController extends Controller
 
         Category::create([
             'name' => $request->name,
-            'description' => $request->description,
             'image' => $image,
+            'description' => $request->description,
         ]);
 
         return to_route('admin.categories.index');
