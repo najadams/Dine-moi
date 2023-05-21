@@ -7,13 +7,13 @@
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
+            <div class="bg-indigo-300 dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
 
                 <div class="flex  m-2 p-2">
                     <a href="{{route('admin.categories.index')}}" class="py-2 px-5 bg-indigo-100 hover:shadow hover:bg-indigo-200 rounded-lg"><i> Category Index</i></a>
                 </div>
 
-                <div class="m-2 p-2 shadow bg-white rounded">
+                <div class="m-2 p-2 shadow bg-gray-200 rounded">
                   <form method="POST" enctype="multipart/form-data" action="{{route('admin.categories.store')}}">
                     @csrf
                     <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"><b><i>Category</i></b></label>
@@ -45,3 +45,4 @@
         </div>
     </div>
 </x-admin-layout>
+

@@ -5,11 +5,11 @@
         </h2>
     </x-slot>
 
-    <<div class="py-12">
+    <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            {{-- <div class="flex justify-end m-2 p-2">
-                <a href="{{route('admin.tables.create')}}" class="py-2 px-5 bg-indigo-100 hover:shadow hover:bg-indigo-200 rounded-lg"><i>New Category</i></a>
-            </div> --}}
+            <div class="flex justify-end m-2 p-2">
+                <a href="{{route('admin.tables.create')}}" class="py-2 px-5 bg-green-500 hover:shadow hover:bg-indigo-200 rounded-lg"><i>New Table</i></a>
+            </div>
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
             <div class="relative overflow-x-auto">
                 <table class="w-full text-sm text-left rounded shadow text-gray-500 dark:text-gray-400">
